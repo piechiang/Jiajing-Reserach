@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "data_source": "jiajing_data_from_pdf\\complete_vol1-45.txt",
+    "total_chars": 683965,
+    "analysis_date": "2026-01-02"
+  },
+  "toxicity_summary": {
+    "total_events": 84,
+    "total_weight": 305,
+    "keywords": [
+      "祷",
+      "醮",
+      "甚至",
+      "斋",
+      "建醮",
+      "不豫"
+    ]
+  },
+  "tyranny_summary": {
+    "total_events": 540,
+    "total_score": 3041,
+    "keywords": [
+      "致仕",
+      "褫夺",
+      "大怒",
+      "斩",
+      "切责",
+      "为民",
+      "震怒",
+      "廷杖",
+      "罢黜",
+      "弃市",
+      "戍边",
+      "锦衣卫",
+      "削籍"
+    ]
+  },
+  "correlation": {
+    "date_count": 4,
+    "high_corr_cases": 26
+  }
+}

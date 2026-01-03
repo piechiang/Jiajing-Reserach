@@ -1,0 +1,26 @@
+{
+  "1": {
+    "status": "success",
+    "file": "jiajing_data\\jiajing_shilu_vol1.txt",
+    "size": 43654,
+    "timestamp": "2026-01-02T00:22:18.149562"
+  },
+  "2": {
+    "status": "success",
+    "file": "jiajing_data\\jiajing_shilu_vol2.txt",
+    "size": 43380,
+    "timestamp": "2026-01-02T00:22:20.792768"
+  },
+  "3": {
+    "status": "success",
+    "file": "jiajing_data\\jiajing_shilu_vol3.txt",
+    "size": 40756,
+    "timestamp": "2026-01-02T00:22:23.385339"
+  },
+  "4": {
+    "status": "success",
+    "file": "jiajing_data\\jiajing_shilu_vol4.txt",
+    "size": 37168,
+    "timestamp": "2026-01-02T00:22:26.060439"
+  }
+}
