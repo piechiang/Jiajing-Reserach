@@ -1,0 +1,35 @@
+[
+  {
+    "year": 21,
+    "month": 3,
+    "toxicity_raw": 4,
+    "tyranny_raw": 119,
+    "control_raw": 46,
+    "toxicity_norm": 5.64,
+    "tyranny_norm": 167.87,
+    "control_norm": 64.89,
+    "char_count": 7089
+  },
+  {
+    "year": 21,
+    "month": 10,
+    "toxicity_raw": 25,
+    "tyranny_raw": 64,
+    "control_raw": 54,
+    "toxicity_norm": 33.01,
+    "tyranny_norm": 84.51,
+    "control_norm": 71.31,
+    "char_count": 7573
+  },
+  {
+    "year": 21,
+    "month": 11,
+    "toxicity_raw": 0,
+    "tyranny_raw": 12,
+    "control_raw": 0,
+    "toxicity_norm": 0.0,
+    "tyranny_norm": 310.08,
+    "control_norm": 0.0,
+    "char_count": 387
+  }
+]

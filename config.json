@@ -1,0 +1,123 @@
+{
+  "description": "嘉靖朝重金属中毒与政治暴虐量化分析 - 关键词权重配置",
+  "version": "2.0",
+  "last_updated": "2026-01-03",
+
+  "toxicity_keywords": {
+    "_comment": "重金属摄入指标（X轴）- 权重0-10",
+    "direct_intake": {
+      "进丹": 10,
+      "赐药": 10,
+      "服食": 10,
+      "红铅": 10,
+      "秋石": 10,
+      "甘露": 6
+    },
+    "alchemists": {
+      "陶仲文": 8,
+      "邵元节": 8,
+      "王金": 6,
+      "段朝用": 6,
+      "顾可学": 6
+    },
+    "taoist_rituals": {
+      "醮": 5,
+      "祷": 5,
+      "祀": 3,
+      "斋": 3,
+      "符": 4,
+      "法": 2
+    },
+    "poisoning_symptoms": {
+      "不豫": 4,
+      "心悸": 6,
+      "眩晕": 5,
+      "震颤": 7,
+      "暴躁": 5,
+      "疾": 2
+    }
+  },
+
+  "tyranny_keywords": {
+    "_comment": "政治暴虐指标（Y轴）- 权重0-10",
+    "extreme_violence": {
+      "凌迟": 10,
+      "磔": 10,
+      "锉尸": 10,
+      "枭示": 8,
+      "斩": 7
+    },
+    "court_punishment": {
+      "廷杖": 10,
+      "杖": 5
+    },
+    "forced_retirement": {
+      "致仕": 2,
+      "削职": 5,
+      "夺官": 5,
+      "罢": 3,
+      "黜": 4
+    },
+    "emotional_outbursts": {
+      "震怒": 6,
+      "大怒": 6,
+      "怒": 3,
+      "斥": 4,
+      "责": 2
+    },
+    "palace_coup": {
+      "逆": 3,
+      "谋": 2,
+      "宫变": 10,
+      "弑": 10,
+      "缢": 8
+    }
+  },
+
+  "control_keywords": {
+    "_comment": "控制变量 - 外部压力因素",
+    "border_threats": {
+      "北虏": 5,
+      "蒙古": 5,
+      "倭寇": 5,
+      "边患": 4,
+      "寇": 2,
+      "兵": 1
+    },
+    "natural_disasters": {
+      "地震": 6,
+      "洪水": 5,
+      "旱": 4,
+      "灾": 3,
+      "饥": 4,
+      "疫": 5
+    },
+    "internal_opposition": {
+      "谏": 3,
+      "争": 3,
+      "劝": 2
+    }
+  },
+
+  "key_events": {
+    "_comment": "关键历史事件标注",
+    "renyin_palace_coup": {
+      "date": "1542-11-27",
+      "lunar_date": "嘉靖21年10月丁酉",
+      "description": "壬寅宫变 - 18名宫女谋杀嘉靖帝未遂",
+      "source": "《明世宗实录》卷二百六十七 PDF第3679页"
+    },
+    "great_rites_controversy": {
+      "start_year": 1,
+      "end_year": 3,
+      "description": "大礼议事件 - 嘉靖帝与群臣关于生父追封的争议"
+    }
+  },
+
+  "analysis_parameters": {
+    "moving_average_window_days": 30,
+    "lagged_correlation_days": 30,
+    "normalization_base": 10000,
+    "_comment": "标准化系数：(原始分数 / 字符数) * 10000"
+  }
+}
