@@ -1,0 +1,75 @@
+{
+  "total_volumes": 566,
+  "batches": 11,
+  "total_chars": 4760483,
+  "total_pages": 5830,
+  "elapsed_seconds": 276,
+  "details": [
+    {
+      "volumes": "1-50",
+      "pages": 565,
+      "chars": 482372,
+      "file": "jiajing_data_full\\vol001-050.txt"
+    },
+    {
+      "volumes": "51-100",
+      "pages": 565,
+      "chars": 474678,
+      "file": "jiajing_data_full\\vol051-100.txt"
+    },
+    {
+      "volumes": "101-150",
+      "pages": 565,
+      "chars": 471888,
+      "file": "jiajing_data_full\\vol101-150.txt"
+    },
+    {
+      "volumes": "151-200",
+      "pages": 565,
+      "chars": 482044,
+      "file": "jiajing_data_full\\vol151-200.txt"
+    },
+    {
+      "volumes": "201-250",
+      "pages": 565,
+      "chars": 464415,
+      "file": "jiajing_data_full\\vol201-250.txt"
+    },
+    {
+      "volumes": "251-300",
+      "pages": 565,
+      "chars": 453407,
+      "file": "jiajing_data_full\\vol251-300.txt"
+    },
+    {
+      "volumes": "301-350",
+      "pages": 565,
+      "chars": 458887,
+      "file": "jiajing_data_full\\vol301-350.txt"
+    },
+    {
+      "volumes": "351-400",
+      "pages": 565,
+      "chars": 439971,
+      "file": "jiajing_data_full\\vol351-400.txt"
+    },
+    {
+      "volumes": "451-500",
+      "pages": 565,
+      "chars": 445761,
+      "file": "jiajing_data_full\\vol451-500.txt"
+    },
+    {
+      "volumes": "501-550",
+      "pages": 565,
+      "chars": 440545,
+      "file": "jiajing_data_full\\vol501-550.txt"
+    },
+    {
+      "volumes": "551-566",
+      "pages": 180,
+      "chars": 146515,
+      "file": "jiajing_data_full\\vol551-566.txt"
+    }
+  ]
+}

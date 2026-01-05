@@ -2,6 +2,11 @@
 *.pdf
 *.PDF
 
+# 超大文本文件（保留JSON分析结果，不提交原始文本）
+jiajing_data_full/*.txt
+jiajing_data_test/*.txt
+calendar_debug/*.html
+
 # Python缓存
 __pycache__/
 *.py[cod]
